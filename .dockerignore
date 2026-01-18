@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+
+# ChromaDB data (mount as volume instead)
+.chroma/
+
+# Documentation (not needed in container)
+*.md
+!README.md
+
+# License (not needed for runtime)
+LICENSE
+
+# Misc
+.DS_Store
+Thumbs.db
+.python-version
+
+# UV cache
+.uv/
