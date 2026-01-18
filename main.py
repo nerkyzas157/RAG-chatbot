@@ -115,11 +115,6 @@ def create_app() -> gr.ChatInterface:
         fn=respond,
         title='"Mano Būstas" RAG Chatbot',
         description="Ask questions about provided services and information.",
-        examples=[
-            "Kokias paslaugas teikia Mano Būstas?",
-            "Koks yra Mano Būstas telefono numeris?",
-            "Kiek galiu sutaupyti su namo renovacija?",
-        ],
     )
     
     return demo
