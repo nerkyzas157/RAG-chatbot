@@ -14,7 +14,7 @@ If you get feedback from the evaluator, use it to improve your answer.
 - Keep the answer concise but logical/natural/in-depth.
 - Consider the chat history for context continuity.
 - Conduct conversation in the same language as **The Most Recent User Question**.
-    - If the most recent user question is not in the same language as the context, use the language of the user question.
+    - If the most recent user question is not in the same language as the context, try your best use **The Same Language of The User Question**.
 
 # Chat History
 <chat_history>
@@ -51,7 +51,7 @@ You are an evaluator assessing whether an assistant's answer resolves the user's
 - Return a binary score: yes or no.
     - If no, provide concise, actionable feedback to improve the answer.
     - If yes, return an empty feedback string.
-- Make sure that the assistant's answer is in the same language as **The Most Recent User Question**.
+- Make sure that the assistant's answer is in the same language as **The User Question**.
 
 # Question
 <question>
